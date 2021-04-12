@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background-color: #F0F9F9; */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* margin */
+.mb-1 {
+  margin-bottom: 1em !important;
+}
+.mb-4x {
+  margin-bottom: 4px !important;
+}
+
+.overflowY {
+  overflow-y: scroll;
+}
+
+.f-roboto {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.flex {
+  display: flex;
+}
+
+.dFlex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorRight {
+  width: 75%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorRight {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 901px) {
+  .MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorRight {
+    width: 25%;
+  }
+}
+
+.MuiTabs-indicator {
+  background-color: #fff !important;
+}
+
+.MuiToggleButtonGroup-root {
+  width: 100%;
+}
+.MuiToggleButton-root {
+  width: 33.33%;
+}
+button.Mui-selected.MuiButtonBase-root.MuiToggleButton-root.MuiToggleButtonGroup-grouped.MuiToggleButtonGroup-groupedHorizontal {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 6.93px;
+}
+.MuiToggleButton-root {
+  border: none !important;
+  padding: 5px !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: #50627Ed9 !important;
+  color: white;
+}
+
+.MuiCheckbox-colorPrimary.Mui-checked {
+  color: #50627E !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #EA7C16 !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid #50627E !important;
+}
+
+.TabsContainer {
+  position: relative;
+}
+
+#slotsAccordian {
+  position: absolute;
+  bottom: 8.5px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  #slotsAccordian {
+    position: relative;
+    margin-top: 1em;
+  }
+}
+
+.TabsContainer .MuiAccordionDetails-root {
+  display: block !important;
+}
+
+/* .MuiBackdrop-root {
+  z-index: 9999 !important;
+} */
+
+.Calendar__weekDays {
+  font-weight: 600 !important;
+  color: #0f837f !important;
+}
+
+#upcoming_tabs {
+  text-align: center !important;
+}
+
+#upcoming_tabs .Calendar {
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+div[editext="view"] {
+  flex-grow: 1;
+}
+
+#select .MuiSelect-select.MuiSelect-select {
+  padding-right: 0 !important;
+  padding-bottom: 14px !important;
+  padding-top: 16px !important;
+}
+
+#media .MuiSelect-select {
+  padding: 16px !important;
+}
+
+.mr-1 {
+  margin-right: 1em;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.c-white {
+  color: white;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .MuiToolbar-gutters {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.react-add-to-calendar {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  background-color: #50627E;
+  border: 1px solid #aab9d4;
+  border-radius: 4px;
+  color: #fff;
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .react-add-to-calendar {
+    margin: 20px 5px;
+  }
+}
+
+.react-add-to-calendar__wrapper {
+  zoom: 1;
+  cursor: pointer;
+}
+.react-add-to-calendar__wrapper a {
+  zoom: 1;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.react-add-to-calendar__icon--right {
+  padding-left: 5px;
+}
+.react-add-to-calendar__icon--left {
+  padding-right: 5px;
+}
+.react-add-to-calendar__dropdown {
+  position: absolute;
+  top: 39px;
+  left: 50%;
+  width: 97%;
+  padding: 5px 0 5px 8px;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.15);
+  border: 1px solid #a8a8a8;
+  background-color: #fff;
+  text-align: left;
+  transform: translate(-50%);
+}
+.react-add-to-calendar__dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.react-add-to-calendar__dropdown ul li {
+  margin: 0;
+  padding: 2px;
+}
+.react-add-to-calendar__dropdown ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.react-add-to-calendar__dropdown ul li a i {
+  padding-right: 10px;
+}
+
+.MuiFormHelperText-contained {
+  margin-left: 14px !important;
+  margin-right: 14px !important;
+}
+
+.MuiAccordionSummary-root.Mui-disabled {
+  opacity: 1 !important;
+}
+
+.MuiAccordionSummary-root.Mui-disabled
+  .MuiAccordionSummary-expandIcon.Mui-expanded {
+  display: none !important;
+}
+
+.MuiAccordion-root.Mui-disabled {
+  background-color: #fafafa !important;
+}
+
+#landing {
+  padding: 1.5em 0 0 0;
+}
